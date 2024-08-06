@@ -22,9 +22,9 @@
 
             bindings = <
 &kp ESCAPE  &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                          &kp N6         &kp N7  &kp N8     &kp N9   &kp N0     &none
-&kp TAB     &kp Q   &kp W   &kp E     &kp R     &kp T                           &kp Z          &kp U   &kp I      &kp O    &kp P      &kp PLUS
-&kp LCTRL   &kp A   &kp S   &kp D     &kp F     &kp G                           &kp H          &kp J   &kp K      &kp L    &kp SEMI   &kp HASH
-&kp LSHFT   &kp Y   &kp X   &kp C     &kp V     &kp B   &kp LBKT     &kp RBKT   &kp N          &kp M   &kp COMMA  &kp DOT  &kp MINUS  &kp RALT
+&kp TAB     &kp Q   &kp W   &kp F     &kp P     &kp B                           &kp J          &kp L   &kp U      &kp Y    &kp SEMI   &kp PLUS
+&kp LCTRL   &kp A   &kp R   &kp S     &kp T     &kp G                           &kp M          &kp N   &kp E      &kp I    &kp O      &kp HASH
+&kp LSHFT   &kp X   &kp C   &kp D     &kp V     &kp Z   &kp LBKT     &kp RBKT   &kp K          &kp H   &kp COMMA  &kp DOT  &kp SLASH  &kp RALT
                             &kp LALT  &kp LGUI  &mo 1   &kp ENTER    &kp SPACE  &kp BACKSPACE  &mo 2   &kp RGUI
             >;
 
@@ -59,7 +59,7 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&none       &none           &none         &none         &none         &none                               &none     &none     &none   &none      &none    &none
+&none       &kp Ä           &kp Ö         &kp Ü         &ß         &none                               &none     &none     &none   &none      &none    &none
 &none       &kp F1          &kp F2        &kp F3        &kp F4        &kp F5                              &kp F6    &kp F7    &kp N8  &kp N9     &kp F10  &none
 &none       &kp C_PREVIOUS  &kp C_NEXT    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PLAY_PAUSE                    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none    &none
 &bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &none     &none   &none     &none     &none   &none      &none    &none
